@@ -6,6 +6,7 @@ class CreateImages < ActiveRecord::Migration[5.2]
 			t.string :attribution
 			t.string :notes
 			t.boolean :live, default: false
+			t.integer :user_id
 
 			t.timestamps
 		end

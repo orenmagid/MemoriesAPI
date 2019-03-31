@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2019_03_30_204627) do
     t.string "attribution"
     t.string "notes"
     t.boolean "live", default: false
+    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
